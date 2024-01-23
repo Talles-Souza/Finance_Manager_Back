@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "PkPEcuhQhqKHuTVOU6Ev98GfDzsgDKopwq59i2/f/gKTAOZ+sEVK2yGVz40tCK2n2KxjYtrzY6BPAdWaCetXDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\talle\\OneDrive\\Área de Trabalho\\FinanceManager\\Finance_Manager\\Finance_Manager_API\\Finance_Manager_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\talle\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
