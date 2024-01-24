@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "klmes8UcMzGIuaWV0eI6lQ1HuAMvKsixyzG3OhTQaGt1URz010QkMjrmhQ9XHy29BQT3AM59/PnXd04WRJ7JIQ==",
+  "dgSpecHash": "0LWRIQe2Dnv37LdvuBNpp4h5ULm+02UBsmuykANQf2AXsvB9cXd14rPfSf23z9lAW0urMg1grOc/XGQY7Ndnfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\talle\\OneDrive\\Área de Trabalho\\FinanceManager\\Finance_Manager\\Service\\Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\talle\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\talle\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
