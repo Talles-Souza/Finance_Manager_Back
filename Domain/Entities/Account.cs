@@ -10,11 +10,11 @@ namespace Domain.Entities
         public DateTime CreateAccount { get; set; }
         public DateTime UpdateAccount { get; set; }
         public User User { get; set; }
-        public Spend Spend { get; set; }
+        public ICollection<Spend> Spends { get; set; }
         public AccountTypes Type { get; set; }
         public Account() { }
 
-        public Account(int id, string number, double value, DateTime createAccount, DateTime updateAccount, User user, Spend spend, AccountTypes type)
+        public Account(int id, string number, double value, DateTime createAccount, DateTime updateAccount, User user, ICollection<Spend> spends, AccountTypes type)
         {
             Id = id;
             Number = number ?? throw new ArgumentNullException(nameof(number));
@@ -22,7 +22,7 @@ namespace Domain.Entities
             CreateAccount = createAccount;
             UpdateAccount = updateAccount;
             User = user ?? throw new ArgumentNullException(nameof(user));
-            Spend = spend ?? throw new ArgumentNullException(nameof(spend));
+            Spends = spends ?? throw new ArgumentNullException(nameof(spends));
             Type = type;
         }
     }

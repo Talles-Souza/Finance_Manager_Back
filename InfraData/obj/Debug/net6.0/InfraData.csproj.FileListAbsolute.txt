@@ -1,0 +1,17 @@
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\bin\Debug\net6.0\InfraData.deps.json
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\bin\Debug\net6.0\InfraData.runtimeconfig.json
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\bin\Debug\net6.0\InfraData.dll
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\bin\Debug\net6.0\InfraData.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\bin\Debug\net6.0\Domain.dll
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\bin\Debug\net6.0\Domain.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.csproj.AssemblyReference.cache
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.AssemblyInfoInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.AssemblyInfo.cs
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.csproj.CoreCompileInputs.cache
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.csproj.CopyComplete
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.dll
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\refint\InfraData.dll
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.pdb
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\InfraData.genruntimeconfig.cache
+C:\Users\talle\OneDrive\Área de Trabalho\FinanceManager\Finance_Manager\InfraData\obj\Debug\net6.0\ref\InfraData.dll

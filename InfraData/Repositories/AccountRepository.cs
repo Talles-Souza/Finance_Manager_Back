@@ -14,9 +14,9 @@ namespace InfraData.Repositories
             _db = db ?? throw new ArgumentNullException(nameof(db));
         }
 
-        public async Task<ICollection<Account>> FindAll() => await _db.Accounts.Include(x => x.User).Include(x => x.Spend).ToListAsync();
+        public async Task<ICollection<Account>> FindAll() => await _db.Accounts.Include(x => x.User).Include(x => x.Spends).ToListAsync();
 
-        public async Task<Account> FindById(int id) => await _db.Accounts.Include(x => x.User).Include(x=> x.Spend).SingleOrDefaultAsync(x => x.Id == id);
+        public async Task<Account> FindById(int id) => await _db.Accounts.Include(x => x.User).Include(x=> x.Spends).SingleOrDefaultAsync(x => x.Id == id);
         public async Task<Account> Create(Account body)
         {
             _db.Accounts.Add(body);

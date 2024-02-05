@@ -9,6 +9,6 @@ namespace Service.DTOS.UserDTO
         public string? Email { get; set; }
         public string? Password { get; set; }
         public string? FullName { get; set; }
-        public Account? Account { get; set; }
+        public ICollection<Account>? Account { get; set; }
     }
 }

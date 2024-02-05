@@ -7,9 +7,10 @@
         public string Email { get; set; }
         public string Password { get; set; }
         public string FullName { get; set; }
-        public Account Account { get; set; }
+        public ICollection<Account>? Account { get; set; }
         public User() { }
-        public User(int id, string firstName, string email, string password, string fullName, Account account)
+
+        public User(int id, string firstName, string email, string password, string fullName, ICollection<Account> account)
         {
             Id = id;
             FirstName = firstName ?? throw new ArgumentNullException(nameof(firstName));
