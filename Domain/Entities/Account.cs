@@ -1,4 +1,5 @@
 ﻿using Domain.Entities.Enum_s;
+using System.Text.Json.Serialization;
 
 namespace Domain.Entities
 {
@@ -9,6 +10,7 @@ namespace Domain.Entities
         public double Value { get; set; }
         public DateTime CreateAccount { get; set; }
         public DateTime UpdateAccount { get; set; }
+        [JsonIgnore]
         public User User { get; set; }
         public ICollection<Spend> Spends { get; set; }
         public AccountTypes Type { get; set; }

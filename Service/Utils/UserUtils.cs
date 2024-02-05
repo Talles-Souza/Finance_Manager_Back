@@ -21,6 +21,13 @@ namespace Service.Utils
             if (user.FullName == null) return ExceptionManager.BadRequest<UserDTO>("FullName is null");
             if (user.FirstName == null) return ExceptionManager.BadRequest<UserDTO>("FirstName is null");
             return ExceptionManager.BadRequest<UserDTO>("Not problem");
-        }        
+        }
+
+         public string GenerateNumberAccount()
+        {
+            Random random = new Random();
+            int numeroAleatorio = random.Next(10000000, 99999999);
+            return numeroAleatorio.ToString();
+        }
     }
 }
