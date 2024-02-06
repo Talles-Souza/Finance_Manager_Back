@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Service.DTOS.UserDTO;
 using Service.Interfaces;
 using System.ComponentModel;
@@ -56,6 +57,27 @@ namespace Finance_Manager_API.Controllers
             var response = await _service.Create(user);
             if (response.Code == 400) return BadRequest(response);
             return StatusCode(201,response);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> Update([FromBody] UserDTO dto)
+        {
+            var response = await _service.Update(dto);
+            if (response.Code == 200) return Ok(response);
+            if (response.Code == 404) return NotFound();
+            return BadRequest(response);
+
+        }
+
+        [HttpDelete("id")]
+        public async Task<ActionResult> Delete([FromQuery]int id)
+        {
+            var response = await _service.Delete(id);
+            if (response.Code == 200) return Ok(response);
+            if (response.Code == 406) return Problem(statusCode: 406, title: "Caracter Not Acceptable");
+            if (response.Code == 404) return NotFound();
+            return BadRequest(response);
+
         }
     }
 }

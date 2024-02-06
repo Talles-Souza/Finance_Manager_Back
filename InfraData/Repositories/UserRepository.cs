@@ -14,7 +14,7 @@ namespace InfraData.Repositories
             _db = db;
         }
         public async Task<ICollection<User>> FindAll() => await _db.Users.Include(x => x.Account).ToListAsync();
-        public async Task<User> FindById(int id) => await _db.Users.Include(x => x.Account).SingleOrDefaultAsync(x => x.Id == id);
+        public async Task<User> FindById(int id) => await _db.Users.Include(x => x.Account).AsNoTracking().SingleOrDefaultAsync(x => x.Id == id);
         public async Task<User> Create(User body)
         {
             _db.Users.Add(body);
