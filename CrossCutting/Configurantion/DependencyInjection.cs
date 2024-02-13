@@ -27,6 +27,7 @@ namespace CrossCutting.Configurantion
         public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ISpendService, SpendService>();
             services.AddAutoMapper(typeof(DomainToDTO));
             return services;
         }

@@ -1,11 +1,13 @@
 ﻿using Domain.Entities.Enum_s;
+using System.Text.Json.Serialization;
 
 namespace Domain.Entities
 {
     public class Spend
     {
         public int Id { get; set; }
-        public SpendTypes Type { get; set;}
+        public SpendTypes Type { get; set; }
+        [JsonIgnore]
         public Account Account { get; set;}
         public DateTime Date { get; set; }
         public double Value { get; set; }

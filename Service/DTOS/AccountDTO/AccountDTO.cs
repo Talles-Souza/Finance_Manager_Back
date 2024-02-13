@@ -11,7 +11,7 @@ namespace Service.DTOS.AccountDTO
         public DateTime CreateAccount { get; set; }
         public DateTime UpdateAccount { get; set; }
         public User? User { get; set; }
-        public Spend? Spend { get; set; }
+        public List<Spend>? Spend { get; set; }
         public AccountTypes Type { get; set; }
     }
 }

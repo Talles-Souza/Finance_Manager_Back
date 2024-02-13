@@ -13,7 +13,12 @@ namespace Service.Mapping
             CreateMap<UserCreateDTO, User>();
             CreateMap<UserDTO, User>();
             CreateMap<UserLoginDTO, User>();
-            CreateMap<SpendDTO, Spend>();
+            CreateMap<SpendDTO, Spend>()
+            .ForMember(d => d.Id, opt => opt.MapFrom(src => src.Id))
+            .ForMember(d => d.Date, opt => opt.MapFrom(src => src.Date))
+            .ForMember(d => d.Value, opt => opt.MapFrom(src => src.Value))
+            .ForMember(d => d.Type, opt => opt.MapFrom(src => src.Type))
+            .ForMember(d => d.Account, opt => opt.Ignore());
             CreateMap<AccountDTO, Account>();
 
         }
